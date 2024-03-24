@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Kashyap - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10;
+            padding: 5;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #343a40;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            margin: 10px 0;
+            color: #343a40; /* Initial color */
+            animation: colorChange 2s infinite alternate; /* Color animation */
+        }
+
+        /* Keyframes for color animation */
+        @keyframes colorChange {
+            0% {
+                color: #343a40; /* Initial color */
+            }
+            50% {
+                color: #ff0000; /* Target color */
+            }
+            50% {
+                color: aqua;
+            }
+        }
+        
+        h2 {
+            margin-top: 20px;
+        }
+        
+        p {
+            margin: 10px 0;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        .skills img {
+            margin: 5px;
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        
+        .hobbies li {
+            margin-bottom: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #343a40;
+            color: #ffffff;
+            margin-top: 20px;
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kunal Kashyap</h1>
+            <img src="my_image.jpg" alt="Kunal Kashyap" style="border-radius: 50%;">
+        </header>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I am a web developer with a passion for learning new technologies.
+                I am currently learning HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, Node.js, Express.js, MongoDB.
+            </p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skills">
+                <img src="JS.png" title="JavaScript" alt="JavaScript">
+                <img src="css.png" title="CSS" alt="CSS">
+                <img src="html.png" title="HTML" alt="HTML">
+                <img src="php.png" title="PHP" alt="PHP">
+                <img src="sql.png" title="MySQL" alt="MySQL">
+                <img src="bootstap.jpg" title="Bootstrap" alt="Bootstrap">
+                <img src="expressjs.png" title="ExpressJS" alt="ExpressJS">
+                <img src="mongodb.png" title="MongoDB" alt="MongoDB">
+                <img src="nodejs.png" title="NodeJS" alt="NodeJS">
+                <img src="python.png" title="Python" alt="Python">
+            </div>
+        </section>
+
+        <section>
+            <h2>Hobbies</h2>
+            <ul class="hobbies">
+                <li>Watching Movies</li>
+                <li>Reading Books</li>
+                <li>Badminton</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <center><a href="https://www.linkedin.com/in/kunalkashyapgermany/" target="_blank">
+                <img src="linkdin.jpg" title="LinkedIn" width="80" alt="LinkedIn"> </a> 
+            </center>
+        </section>
+
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5328.248439846587!2d11.3024253!3d48.1078394!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1711271356121!5m2!1sen!2sde" width="100%" height="450" 
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+
+    <footer>
+        <h3>&copy; Kunal Kashyap Portfolio</h3>
+    </footer>
+</body>
+</html>
